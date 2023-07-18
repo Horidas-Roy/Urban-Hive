@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* navbar related style */
+nav {
+  background-color: #9376e0;
+  min-height: 50px;
+  padding: 15px 0;
+}
+
+.logo-container img {
+  width: 50px;
+}
+.navbar-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.menu-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-container a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+.menu-container span {
+  color: black;
+  background-color: #e893cf;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+/* banner related style */
+.banner {
+  background-color: #e6e9eb;
+}
+
+.banner-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  padding: 20px;
+}
+
+.banner-content {
+  width: 50%;
+  border: 1px solid yellow;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.banner-content h2 {
+  font-size: 3.5rem;
+  background-image:linear-gradient(to bottom,#9376e0,#e893cf);
+  color: transparent;
+  -webkit-background-clip: text;
+
+}
+.banner-content p {
+    font-family: 'Dancing Script', 'cursive';
+    font-size: 3rem;
+    margin: 10px auto;
+}
+.banner-content .social-links{
+    
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.banner-content .social-links .fa-brands{
+    
+    font-size: 40px;
+}
+#fb{
+    color: blue;
+}
+#twiter{
+    color: skyblue;
+}
+#youtube{
+    color: red;
+}
+#instra{
+    color: palevioletred;
+}
+.banner-img {
+  width: 50%;
+}
+.banner-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.btn-primary{
+    border: 2px solid #9376e0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: transparent;
+    font-weight: 700;
+}
+
+/* banner related style end here */
+
+/* product section related style */
+
+.products-section .products-section-tittle{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.product{
+    /* width: 25%; */
+    padding: 20px;
+        background-color: rgba(112, 128, 144, 0.281);
+        border-radius: 10px;
+        box-shadow: 2px 2px 4px black; 
+}
+.product img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+.product-tittle{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.product h4{
+    margin-top:20px;
+}
+.product .icons{
+    display: flex;
+    gap: 10px;
+}
+.products-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* discount section related style */
+
+.discount-section{
+    background-color: #9376e0;
+}
+.discound-section-container{
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.discount-img{
+    width: 50%;
+    position: relative;
+}
+.discount-img img{
+    width: 70%;
+}
+.discount{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: darkolivegreen;
+    color: #e6e9eb;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -3%;
+    left: 50%;
+
+}
+.discount-content{
+    width: 50%;
+}
+.discount-btn{
+    border: 2px solid goldenrod;
+}
+

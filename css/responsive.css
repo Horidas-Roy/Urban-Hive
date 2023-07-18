@@ -1,0 +1,58 @@
+@media screen and (max-width:576px) {
+    /* navbar responsive */
+    .navbar-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .menu-container{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    .menu-container span{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .menu-container span a{
+        color: black;
+    }
+    
+    /* banner responsive */
+    .banner-container {
+        flex-direction: column;
+      }
+
+      .banner-content {
+        width: 100%;
+        
+      }
+      .banner-img {
+        width: 100%;
+      }
+
+      /* products related style */
+      .products-container{
+        grid-template-columns: repeat(2,1fr);
+    
+    }
+
+    /* discount section responsive */
+    .discound-section-container{
+        flex-direction: column;
+    }
+    .discount-img{
+        width: 100%;
+        
+    }
+    .discount-content{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+        /* product related style */
+
+        .products-container{
+            grid-template-columns: repeat(3,1fr);
+        }
+}
